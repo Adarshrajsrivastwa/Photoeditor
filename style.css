@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url("background.jpg");
+}
+.container{
+    height: 80vh;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 35vw;
+}
+
+.notation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail{
+    width: 20vw;
+    height: 40vh;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.headingbar, .headingper{
+    font-size: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.photo{
+    height: 30vh;
+    width: 20vw;
+}
+
+.gal{
+    width: 20vw;
+    height: 28vh;
+}
+
+.choose{
+    display: grid;
+    width: 100%;
+    place-items: centre;
+}
+
+.buttons{
+    height: 4vh;
+    align-items: center;
+}
+.btn{
+    align-items: center;
+    margin-left: 4vw;
+    height: 4vh;
+    width: 12vw;
+    background-color: rgb(252, 187, 8);
+}
+.bar{
+    margin-top: 1vh;
+    border-color: blue;
+}
+
+.notation{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.range{
+    width: 90%;
+    margin-left:1.5vw;
+    height: 4vh;
+}
+
+.hero{
+    height:8vh;
+    width: 100%;
+    margin-top: 3vh;
+}
+.head{
+    margin-left: 1.5vw;
+}
+.icon{
+    height: 5vh;
+    width: 100%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content:space-around;
+}
+
+.icons,.icons1{
+    height: 3vh;
+    width: 3vw;
+}
+.buttonbar{
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    height: 10vh;
+}
+
+.active{
+    background-color:rgb(60, 204, 170);
+    height: 3vh;
+    width: 3vw;
+    border-radius: 5vw 5vh;
+}
+
+.reset,.save{
+    height: 5vh;
+    width:8vw;
+}
+
+.reset:hover,.save:hover{
+    background-color:lawngreen
+}
+
+.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+@media (max-width:600px) {
+    .container,.detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 80vw;
+        margin: 10vw;
+        padding: 0;
+    }
+
+    .buttonbar{
+        height: 10vh;
+        width: 50vw;
+    }
+
+    .reset,.save{
+        height: 8vh;
+        width:15vw;
+    }
+
+    .btn{
+        align-items: center;
+        margin-left: 5vw;
+        height: 3vh;
+        width: 30vw;
+        background-color: rgb(252, 187, 8);
+    }
+
+    .gal{
+        width: 25vw;
+        height: 28vh;
+    }
+}

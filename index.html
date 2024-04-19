@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="headingtext">Photo editor</h1>
+        </div>
+
+        <div class="detail">
+            <div class="photo">
+                <img class="gal" src="galary.png">
+            </div>
+            
+            <div class="buttons">
+            <input type="file" class="pic" accept="photo/*" hidden />
+            <button class="btn">upload image</button>
+            </div>
+           </div>
+
+     <div class="access disable">
+            <div class="bar">
+                <div class="notation">
+                    <h6 class="headingbar">Brightness</h6>
+                    <h6 class="headingper slider">200%</h6>
+                </div>
+    
+                <input type="range" class="range" min="0" max="200" value="100">
+            </div>
+           <div class="hero">
+            <h6 class="head">Filters</h6>
+            <div class="icon">
+                <img class="icons active" id="Brightness" src="2089622-removebg-preview.png">
+                <img class="icons" id="Contrast" src="475980-removebg-preview.png">
+                <img class="icons" id="Saturate" src="images__1_-removebg-preview.png">
+                <img class="icons" id="Invert" src="images-removebg-preview.png">
+                <img class="icons" id="Blur" src="blur.png">
+            </div>
+           </div>
+    
+           <div class="hero">
+            <h6 class="head">Rotate & flip</h6>
+            <div class="icon">
+                <img class="icons1" id="Rotate_left" src="49a00d427bee9256c90713797b976a04-removebg-preview.png">
+                <img class="icons1" id="Rotate_right" src="images-removebg-preview (3).png">
+                <img class="icons1" id="flip_X" src="10766013-removebg-preview (1).png">
+                <img class="icons1" id="flip_y" src="flip_vertical_icon_137609.png">
+             </div>
+            </div>
+    
+            <div class="buttonbar">
+                <button class="reset">Reset</button>
+                <button class="save">Save</button>
+            </div>
+     </div>
+        </div>
+        </div>
+        </div>
+
+
+    </div>
+<script src="logic.js"></script>
+</body>
+</html>
